@@ -12,7 +12,10 @@ Script that can extract subdomains used in SSL/TLS certificates using https://cr
 > Built using GoLang 1.20.5
 
 ## Usage
-Once the dependencies are installed, you will need to run the script and specify the various parameters.<br/>
+> <h4>Required modules:</h4>
+> - golang.org/x/exp/slices
+
+Once the modules are installed, you will need to run the script and specify the domain parameter.<br/>
 ```sh
 go run extractor.go <target_domain>
 ```
